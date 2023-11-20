@@ -1,5 +1,4 @@
 import { Box, useMediaQuery, useTheme } from "@mui/material";
-import React from "react";
 import TypingAnim from "../components/typer/TypingAnim";
 import Footer from "../components/footer/Footer";
 
@@ -31,9 +30,9 @@ const Home = () => {
           }}
         >
           <img
-            src="robot.png"
+            src="robott.png"
             alt="robot"
-            style={{ width: "200px", margin: "auto" }}
+            style={{ width: "250px", margin: "auto" }}
           />
           <img
             className="image-inverted rotate"
@@ -44,7 +43,7 @@ const Home = () => {
         </Box>
         <Box sx={{ display: "flex", mx: "auto" }}>
           <img
-            src="chat.png"
+            src="Capture.PNG"
             alt="chatbot"
             style={{
               display: "flex",

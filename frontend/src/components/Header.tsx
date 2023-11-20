@@ -32,13 +32,13 @@ const Header = () => {
           ) : (
             <>
               <NavigationLink
-                bg="#00fffc"
+                bg="rgb(7, 102, 173)"
                 to="/login"
                 text="Login"
-                textColor="black"
+                textColor="white"
               />
               <NavigationLink
-                bg="#51538f"
+                bg="rgb(7, 102, 173)"
                 textColor="white"
                 to="/signup"
                 text="Signup"

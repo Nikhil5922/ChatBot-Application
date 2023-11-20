@@ -83,7 +83,7 @@ const Chat = () => {
           sx={{
             display: "flex",
             width: "100%",
-            height: "60vh",
+            height: "65vh",
             bgcolor: "rgb(17,29,39)",
             borderRadius: 5,
             flexDirection: "column",
@@ -106,7 +106,7 @@ const Chat = () => {
             You are talking to a ChatBOT
           </Typography>
           <Typography sx={{ mx: "auto", fontFamily: "work sans", my: 4, p: 3 }}>
-            You can ask some questions related to Knowledge, Business, Advices,
+            You can ask some questions related to Knowledge, Business,
             Education, etc. But avoid sharing personal information
           </Typography>
           <Button
@@ -138,9 +138,8 @@ const Chat = () => {
       >
         <Typography
           sx={{
-            fontSize: "40px",
+            fontSize: "35px",
             color: "white",
-            mb: 2,
             mx: "auto",
             fontWeight: "600",
           }}
@@ -150,7 +149,7 @@ const Chat = () => {
         <Box
           sx={{
             width: "100%",
-            height: "60vh",
+            height: "65vh",
             borderRadius: 3,
             mx: "auto",
             display: "flex",
@@ -162,14 +161,13 @@ const Chat = () => {
           }}
         >
           {chatMessages.map((chat, index) => (
-            //@ts-ignore
             <ChatItem content={chat.content} role={chat.role} key={index} />
           ))}
         </Box>
         <div
           style={{
             width: "100%",
-            borderRadius: 8,
+            borderRadius: 50,
             backgroundColor: "rgb(17,27,39)",
             display: "flex",
             margin: "auto",
